@@ -16,7 +16,7 @@ body {
   max-width: 400px;
   height: 600px;
   margin: 20px auto;
-  background: url('images/road.png') repeat-y;
+  background: url('road.png') repeat-y;
   background-size: cover;
   border: 3px solid #fff;
   position: relative;
@@ -29,12 +29,12 @@ body {
   background-size: cover;
 }
 #playerCar {
-  background-image: url('images/player-car.png');
+  background-image: url('player-car.png');
   bottom: 10px;
   left: 175px;
 }
 .enemyCar {
-  background-image: url('images/enemy-car.png');
+  background-image: url('enemy-car.png');
   top: -100px;
 }
 .line {
