@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+    color: #fff;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  text-align: center;
+}
+#gameArea {
+  width: 90%;
+  max-width: 400px;
+  height: 600px;
+  margin: 20px auto;
+  background: url('images/road.png') repeat-y;
+  background-size: cover;
+  border: 3px solid #fff;
+  position: relative;
+  overflow: hidden;
+}
+.car {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  background-size: cover;
+}
+#playerCar {
+  background-image: url('images/player-car.png');
+  bottom: 10px;
+  left: 175px;
+}
+.enemyCar {
+  background-image: url('images/enemy-car.png');
+  top: -100px;
+}
+.line {
+  width: 10px;
+  height: 100px;
+  background: white;
+  position: absolute;
+  left: 195px;
+}
+#controls {
+  margin-top: 20px;
+}
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+}
+#scoreBoard {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sidmoses Car Racing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sidmoses Car Racing Game</h1>
+  <div id="gameArea">
+    <div id="playerCar" class="car"></div>
+    <div id="scoreBoard">Score: 0</div>
+  </div>
+
+  <div id="controls">
+    <button onclick="startGame()">Start Manual</button>
+    <button onclick="startGame(true)">Start Tilt</button>
+  </div>
+
+  <audio id="crashSound" src="https://www.soundjay.com/transportation/car-crash-1.mp3" preload="auto"></audio>
+  <audio id="bgMusic" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" preload="auto" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
