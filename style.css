@@ -32,7 +32,7 @@ body {
   background-image: url('images/player-car.png');
   bottom: 10px;
   left: 175px;
-  z-index: 10;
+  
 }
 .enemyCar {
   background-image: url('images/enemy-car.png');
