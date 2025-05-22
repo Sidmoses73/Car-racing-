@@ -51,6 +51,21 @@ function startGame(isTilt = false) {
     }
   };
 
+   // On-screen buttons for mobile
+  leftBtn.onclick = () => {
+    if (!tiltMode && carLeft > 0) {
+      carLeft -= 10;
+      car.style.left = carLeft + "px";
+    }
+  };
+  rightBtn.onclick = () => {
+    if (!tiltMode && carLeft < 350) {
+      carLeft += 10;
+      car.style.left = carLeft + "px";
+    }
+  };
+
+
   if (tiltMode) {
     window.addEventListener("deviceorientation", (event) => {
       const gamma = event.gamma;
