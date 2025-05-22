@@ -26,7 +26,7 @@ function startGame(isTilt = false) {
     line.classList.add("line");
     line.style.top = `${i * 100}px`;
     gameArea.appendChild(line);
-    lines.push(line);
+    lines.push(line); 
   }
 
   const enemies = [];
