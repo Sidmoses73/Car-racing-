@@ -16,7 +16,7 @@ body {
   max-width: 400px;
   height: 600px;
   margin: 20px auto;
-  background: url('road1.png') repeat-y;
+  background: url('images/road1.png') repeat-y;
   background-size: cover;
   border: 3px solid #fff;
   position: relative;
@@ -29,13 +29,13 @@ body {
   background-size: cover;
 }
 #playerCar {
-  background-image: url('player-car.png');
+  background-image: url('images/player-car.png');
   bottom: 10px;
   left: 175px;
-  z-index:10;
+  z-index: 10;
 }
 .enemyCar {
-  background-image: url('enemy-car.png');
+  background-image: url('images/enemy-car.png');
   top: -100px;
 }
 .line {
@@ -62,4 +62,30 @@ button {
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 16px;
+}
+/* Mobile Controls */
+#mobileControls {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+#mobileControls button {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  margin: 0 20px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 0 10px #000;
+}
+
+@media screen and (max-width: 768px) {
+  #mobileControls {
+    display: block;
+    margin: 10px auto ;
+  }
 }
