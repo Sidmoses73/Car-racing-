@@ -16,7 +16,7 @@ body {
   max-width: 400px;
   height: 600px;
   margin: 20px auto;
-  background: url('images/road1.png') repeat-y;
+  background: url('images/road.png') repeat-y;
   background-size: cover;
   border: 3px solid #fff;
   position: relative;
@@ -27,6 +27,7 @@ body {
   height: 100px;
   position: absolute;
   background-size: cover;
+  z-index:10;
 }
 #playerCar {
   background-image: url('images/player-car.png');
